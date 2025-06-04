@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-intialState={
+const initialState={
     isAuthenticated:false,
     isLoading:false,
     user:null
