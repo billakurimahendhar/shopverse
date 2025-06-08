@@ -17,12 +17,8 @@ import UnauthPage from "./pages/un-auth";
 
 
 function App() {
-  const isAuthenticated=true;
-  const user={
-    name: "John Doe",
-    role: "user" // or "user"
-  };
-
+  const isAuthenticated=false;
+  const user=null;
   
   return (
     <div className="flex flex-col overflow-hidden bg-white">
